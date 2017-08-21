@@ -1,5 +1,5 @@
 // ########################################################################
-//Don't edit this section. Instead make these tests pass by writing
+// Don't edit this section. Instead make these tests pass by writing
 // constructors in the constructor section above ;D
 // #######################################################################
 
@@ -30,7 +30,6 @@ it("should not affect Atticus and Moonshine's owner properties when setting Maso
 });
 
 it("should make Julia cool and Mason not cool", function(){
-  sadie.owner = mason;
   expect(julia.cool).toBe(true);
   expect(mason.cool).toBe(false);
 });
